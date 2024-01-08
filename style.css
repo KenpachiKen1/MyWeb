@@ -1,0 +1,30 @@
+#Resume{
+  height: 50px;
+  width: 75px;
+  border: black solid 1px;
+  font-size: medium;
+  cursor: pointer;
+  color: black;
+  position: relative;
+  left: 500px;
+}
+
+.resumeLink{
+    text-decoration: none;
+    color: inherit;
+}
+
+#Biography{
+    height: 50px;
+    width: 100px;
+    font-size: medium;
+    cursor: pointer;
+    color: black;
+    border: black solid 1px;
+}
+
+.BackgroundLink{
+    text-decoration: none;
+    color: inherit;
+    padding-left: 45px;
+}
