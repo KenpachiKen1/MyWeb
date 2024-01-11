@@ -6,24 +6,30 @@
 <meta charset="UTF-8">
 <title>Background</title>
 <style>
+
+  h2{
+    text-align: center;
+  }
    #green-box{
     background-color: green;
     width: 100px;
     height: 250px;
+    display: inline-block
    }
    #white-box{
     background-color: white;
     width: 100px;
     height: 250px;
-    position: relative;
-    left: 100px;
+    display: inline-block
+
+   
    }
    #green-box2{
     background-color: green;
     width: 100px;
     height: 250px;
-    position: relative;
-    left: 100px;
+    display: inline-block
+    
    }
 
    #grey-square{
@@ -42,20 +48,67 @@
     top: 100px;
     font-size: small;
    }
+
+
+   @media(max-width: 680px){
+    h2{
+      text-align: center;
+    }
+    #Nigeria{
+      margin-right: 20% ;
+      width: 70%;
+      display: block
+      
+    }
+
+    p{
+      text-align: justify;
+    }
+
+    #green-box{
+    background-color: green;
+    width: 30%;
+
+    left: 750px;
+    display: inline-block;
+
+   }
+   #white-box{
+    background-color: white;
+    width: 30%;
+   
+    display: inline-block;
+
+  
+   }
+   #green-box2{
+    background-color: green;
+    width: 30%;
+ 
+    display: inline-block;
+  
+   }
+
+   #grey-square{
+    width: 80%;
+    margin-left: 20px;
+    text-align: justify;
+   }
+
+  }
   
 </style>
 </head>
 <h1 style="text-align: center;">Background</h1>
 <h2>Facts about me</h2>
 <hr>
-<p> Both of my parents are from Nigeria, however I was born in Southern Maryland</p>
-<div id="green-box" style="margin-left: 70%;">
-    <div id="white-box">
+<div id="Nigeria">
+<div id="green-box"></div>
+    <div id="white-box"> </div>
         <div id="green-box2"></div>
-    </div>
-    <br>
-    
+  </div>
 </div>
+<p> Both of my parents are from Nigeria, however I was born in Southern Maryland</p>
 
 <p>I graduated from Westlake High School, attended the college of Southern Maryland and now attend the University of Maryland College Park as a Computer Science Major and an ACES honors memeber.</p>
 
